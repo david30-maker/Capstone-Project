@@ -448,7 +448,7 @@ footer .footer_copy img {
       rgba(236, 81, 81, 0.164),
       rgba(218, 218, 218, 0.8)
     ),
-    url(./images/bg-about.png);
+    url(./img/headline-2.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -569,7 +569,7 @@ footer .final-parag p {
       rgba(255, 0, 0, 0.4),
       rgba(255, 0, 0, 0.4)
     ),
-    url(./images/testimonyK_festival.jpg);
+    url(./img/event-1.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -580,7 +580,7 @@ footer .final-parag p {
       rgba(255, 0, 0, 0.4),
       rgba(255, 0, 0, 0.4)
     ),
-    url(./images/testimonyH.jpg);
+    url(./img/event-2.jpeg);
   background-position: center;
   background-size: cover;
 }

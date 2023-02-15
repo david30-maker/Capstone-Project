@@ -1,66 +1,95 @@
 const speakers = [
   {
     images: {
-      imagesUrl: './images/speaker4.png',
+      imagesUrl: 'img/speaker-1.png',
       imagesAlt: 'Chandler Moore',
     },
     name: 'Professor of Entrepreneurial Legal Studies at Havard',
-    shortDescription: '',
+    shortDescription: 'Department of Entrepreneurial Legal Studies at Havard.',
     profile: 'Chandler studies commons-based perr production, and published his seminal book The Wealth of Network in 2019.',
   },
 
   {
     images: {
-      imagesUrl: './images/prof_rita.JPG',
-      imagesAlt: 'Prof. Dickson Rita',
+      imagesUrl: 'img/osi.j',
+      imagesAlt: 'Prof. Oluyemi Osinbajo',
     },
-    name: 'Prof. Dickson Rita',
+    name: 'Prof. Oluyemi Osinbajo',
     shortDescription: 'Provost at Kwame Nkrumah University of Science and technology',
-    profile: `Prof. Dickson obtained her M.Pharm (Pharmacognosy) in 1999 and was appointed a lecturer in 2000.
-    In 2003, she was awarded a Commonwealth scholarship to pursue her PhD at King's College, University of London, UK.`,
+    profile: `Oluyemi Oluleke Osinbajo GCON (born 8 March 1957) is 
+    a Nigerian lawyer, professor, and politician who is the 14th and
+     current Vice President of Nigeria since 2015. A member of the All
+      Progressives Congress (APC), he previously served as Attorney General
+       of Lagos State from 1999 to 2007 and holds
+     the title of Senior Advocate of Nigeria.`,
   },
 
   {
     images: {
-      imagesUrl: './images/claudySiar.JPG',
-      imagesAlt: 'Claudy Siar',
+      imagesUrl: 'img/obas.jpeg',
+      imagesAlt: 'Mr. Godwin Obaseki',
     },
-    name: 'Claudy Siar',
-    shortDescription: 'Journalist, Presenter',
-    profile: ` In 2014-2015,in the historical television series Brothers the Arms by Rachid Bouchareb and Pascal Blanchard,he presents the biography of Florence Conrad.
-    In 2016-2017, he hosted The Voice Afrique francophone on Voxafrica.`,
+    name: 'Mr. Godwin Obaseki',
+    shortDescription: 'Executive Governor of Edo State.',
+    profile: ` Godwin Nogheghase Obaseki (born 1 July 1957) is a Nigerian 
+    politician and businessman who 
+    is currently the Governor of Edo State.Before becoming governor, he served as
+     chairman of the Edo State Economic and Strategy Team inaugurated
+      by former Governor Adams Oshiomole in March 2009.
+     Obaseki holds post graduate degrees in both Finance and
+     International Business,[6] and is a Fellow of the Chartered
+      Institute of Stock Brokers, Nigeria.`,
   },
 
   {
     images: {
-      imagesUrl: './images/Kossi_festival.JPG',
-      imagesAlt: 'Kossi stack',
-    },
-    name: 'Augustin Kossi',
-    shortDescription: 'Kossi is a DEV Programmer Eng and big architech in Kumasi',
-    profile: 'Kossi has a PhD in ICTM and currently a Senior Lecturer in the Department of Architecture, Kwame Nkrumah University Of Science and Technology. is an active practicing consulting architect and the C.E.O. of the PROJEKT DAVID FOUNDATION.',
-  },
-
-  {
-    images: {
-      imagesUrl: './images/speaker5.png',
-      imagesAlt: 'Jocelyne Béroard',
-    },
-    name: 'Jocelyne Béroard',
-    shortDescription: 'Jocelyne is a Martinican singer and songwriter',
-    profile: 'In 2014, she sang On noublie pas (written by Serge Bilé) with several artists and personalities including Alpha Blondy, Harry Roselmack and Admiral T. This song is a tribute to the 152 victims from Martinique of the crash of 16 August 2005,',
-  },
-
-  {
-    images: {
-      imagesUrl: './images/speaker1.png',
+      imagesUrl: 'images/speaker-2.png',
       imagesAlt: 'Scott Michael Disick',
     },
     name: 'Scott Michael Disick',
+    shortDescription: 'Scott Michael Disick',
+    profile: `Scott Michael Disick (born May 26, 1983)[1][2] is an American 
+    media personality and socialite. He is most famous for starring as a 
+    main cast member on Keeping Up with the Kardashians and its spinoffs. 
+    Disick's popularity on Keeping Up with the Kardashians led to the development
+     of a house flipping show, Flip It Like Disick, that aired on E!.[5]
+      In addition to starring on reality shows, Disick has pursued multiple
+       business ventures, including starting a clothing brand Talentless,
+       investing in nightclubs, and running multiple vitamin companies.`,
+  },
+
+  {
+    images: {
+      imagesUrl: 'img/eme.jpeg',
+      imagesAlt: 'Mr. Godwin Emefiele',
+    },
+    name: 'Mr. Godwin Emefiele',
+    shortDescription: 'Governor of Central Bank Of Nigera',
+    profile: `Emefiele has been governor of the Central Bank of Nigeria 
+    since 2014. During his first term, he supervised an interventionist
+     currency policy at the behest of the presidency, propping up the
+      Nigerian Naira by pumping billions of dollars into the foreign 
+      exchange market. He also introduced a multiple exchange rate 
+      regime to try to mask pressure on the Naira and avoid a series 
+      of devaluations.`,
+  },
+
+  {
+    images: {
+      imagesUrl: 'img/zainb.jpeg',
+      imagesAlt: 'Scott Michael Disick',
+    },
+    name: 'rs. Zainab Ahmed',
     shortDescription: 'Gospel Artiste',
-    profile: 'Scott Michael Disick is an American media personality and socialite. He is most famous for starring as a main cast member on Keeping Up with the Kardashians and its spinoffs.[5][6] Disicks popularity on Keeping Up with the Kardashians led to the development of a house flipping show, Flip It Like Disick, that aired on E! Network',
+    profile: `Zainab Shamsuna Ahmed CON (born 16 June 1960) is a 
+    Nigerian accountant[1] who has been serving as Minister of Finance,
+     Budget and National Planning[2][3] since 2019. At the time, President
+      Muhammadu Buhari brought the two ministries under her as one, making her
+       the de facto Minister of Economy.An accountant by profession with a Bachelor of Science degree in accounting from ABU Zaria and a 
+       Master's in Business Administration(MBA).`,
   },
 ];
+
 
 function showGuests(guest) {
   const guestCard = `<div class="guest">
@@ -77,15 +106,15 @@ function showGuests(guest) {
   </aside>
 </div>`;
   return guestCard;
-}
+};
 
 const sectionForGuests = document.querySelector('.guest_list');
 
 function showMyGuests() {
   const guestKeys = Object.keys(speakers);
   const guestKeysLength = Object.keys(speakers).length;
-  for (let i = 0; i < guestKeysLength; i++) {
-    sectionForGuests.innerHTML += showGuests(speakers[guestKeys[i]], i);
+  for (let i = 0; i < guestKeysLength; i += 1) {
+    sectionForGuests.innerHTML += showGuests(speakers[guestKeys[i]]);
   }
 }
 
