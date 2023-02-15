@@ -17,11 +17,7 @@ const speakers = [
     name: 'Prof. Oluyemi Osinbajo',
     shortDescription: 'Provost at Kwame Nkrumah University of Science and technology',
     profile: `Oluyemi Oluleke Osinbajo GCON (born 8 March 1957) is 
-    a Nigerian lawyer, professor, and politician who is the 14th and
-     current Vice President of Nigeria since 2015. A member of the All
-      Progressives Congress (APC), he previously served as Attorney General
-       of Lagos State from 1999 to 2007 and holds
-     the title of Senior Advocate of Nigeria.`,
+    a Nigerian lawyer, professor, and politician.`,
   },
 
   {
@@ -32,13 +28,7 @@ const speakers = [
     name: 'Mr. Godwin Obaseki',
     shortDescription: 'Executive Governor of Edo State.',
     profile: ` Godwin Nogheghase Obaseki (born 1 July 1957) is a Nigerian 
-    politician and businessman who 
-    is currently the Governor of Edo State.Before becoming governor, he served as
-     chairman of the Edo State Economic and Strategy Team inaugurated
-      by former Governor Adams Oshiomole in March 2009.
-     Obaseki holds post graduate degrees in both Finance and
-     International Business,[6] and is a Fellow of the Chartered
-      Institute of Stock Brokers, Nigeria.`,
+    politician and businessman who is currently the Governor of Edo State.`,
   },
 
   {
@@ -50,12 +40,7 @@ const speakers = [
     shortDescription: 'Scott Michael Disick',
     profile: `Scott Michael Disick (born May 26, 1983)[1][2] is an American 
     media personality and socialite. He is most famous for starring as a 
-    main cast member on Keeping Up with the Kardashians and its spinoffs. 
-    Disick's popularity on Keeping Up with the Kardashians led to the development
-     of a house flipping show, Flip It Like Disick, that aired on E!.[5]
-      In addition to starring on reality shows, Disick has pursued multiple
-       business ventures, including starting a clothing brand Talentless,
-       investing in nightclubs, and running multiple vitamin companies.`,
+    main cast member on Keeping Up with the Kardashians and its spinoffs.`,
   },
 
   {
@@ -67,11 +52,7 @@ const speakers = [
     shortDescription: 'Governor of Central Bank Of Nigera',
     profile: `Emefiele has been governor of the Central Bank of Nigeria 
     since 2014. During his first term, he supervised an interventionist
-     currency policy at the behest of the presidency, propping up the
-      Nigerian Naira by pumping billions of dollars into the foreign 
-      exchange market. He also introduced a multiple exchange rate 
-      regime to try to mask pressure on the Naira and avoid a series 
-      of devaluations.`,
+     currency policy at the behest of the presidency.`,
   },
 
   {
@@ -83,10 +64,7 @@ const speakers = [
     shortDescription: 'Gospel Artiste',
     profile: `Zainab Shamsuna Ahmed CON (born 16 June 1960) is a 
     Nigerian accountant[1] who has been serving as Minister of Finance,
-     Budget and National Planning[2][3] since 2019. At the time, President
-      Muhammadu Buhari brought the two ministries under her as one, making her
-       the de facto Minister of Economy.An accountant by profession with a Bachelor of Science degree in accounting from ABU Zaria and a 
-       Master's in Business Administration(MBA).`,
+     Budget and National Planning[2][3] since 201.`,
   },
 ];
 

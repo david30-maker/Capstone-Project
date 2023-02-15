@@ -140,9 +140,11 @@ hr {
 footer .footer_copy img {
   width: 50px;
   height: 50px;
-  gap: 15px;
+  margin-right: 20px;
   background-color: #d7e4f1;
 }
+
+
 
 .mobile-menu img:hover {
   animation: rotateX 300ms ease-in-out;
@@ -637,6 +639,15 @@ footer .footer_copy {
   align-items: center;
 }
 
+#footer-3 {
+  background-color: #1e2022;
+  opacity: 2;
+}
+
+#footer-h6 {
+  color: white;
+}
+
 @media all and (min-width: 768px) {
   .hamburger {
     display: none;
@@ -781,7 +792,7 @@ footer .footer_copy {
   }
 
   footer {
-    height: 90px;
+    height: 120px;
     background-color: #f9f9f9;
     display: flex;
     align-items: center;
@@ -791,8 +802,10 @@ footer .footer_copy {
   }
 
   #about-footer {
-    padding: 60px 0;
-    background-color: #272a31;
+    height: 120px;
+    padding: 90px 0;
+    background-color: black;
+    opacity: 0;
     color: #fff;
   }
 
