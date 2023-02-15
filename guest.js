@@ -60,7 +60,7 @@ const speakers = [
       imagesUrl: 'img/zainb.jpeg',
       imagesAlt: 'Scott Michael Disick',
     },
-    name: 'rs. Zainab Ahmed',
+    name: 'Mrs. Zainab Ahmed',
     shortDescription: 'Gospel Artiste',
     profile: `Zainab Shamsuna Ahmed CON (born 16 June 1960) is a 
     Nigerian accountant[1] who has been serving as Minister of Finance,
