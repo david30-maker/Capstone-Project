@@ -90,7 +90,6 @@ const speakers = [
   },
 ];
 
-
 function showGuests(guest) {
   const guestCard = `<div class="guest">
   <div class="image_design">
@@ -106,7 +105,7 @@ function showGuests(guest) {
   </aside>
 </div>`;
   return guestCard;
-};
+}
 
 const sectionForGuests = document.querySelector('.guest_list');
 
@@ -119,7 +118,3 @@ function showMyGuests() {
 }
 
 sectionForGuests.onresize = showMyGuests();
-
-
-
-
