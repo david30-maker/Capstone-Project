@@ -38,13 +38,11 @@
 
 # 📖 Capstone Project <a name="about-project"></a>
 
->**Capstone Project** is about using Html, Css and JavaScript to build a responsive website for Nigerian Economic Summit under the supervision of Federal ministry of finance.
+>**Capstone Project** is about using Html, Css and JavaScript to build a responsive Conference page for Nigerian Economic Summit under the supervision of Federal ministry of finance.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
