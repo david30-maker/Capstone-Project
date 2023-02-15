@@ -144,8 +144,6 @@ footer .footer_copy img {
   background-color: #d7e4f1;
 }
 
-
-
 .mobile-menu img:hover {
   animation: rotateX 300ms ease-in-out;
   color: #ec5242;
@@ -414,17 +412,22 @@ footer .footer_copy img {
 .guest aside h4 {
   font-size: 22px;
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 .guest aside p {
   color: #ec5242;
   font-style: italic;
   padding-bottom: 5px;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .guest aside span {
-  font-size: 14px;
+  font-size: 15px;
   color: #272a31;
+  line-height: 20px;
+  margin-top: 5px;
 }
 
 .guest_list .guest-hidden {
@@ -639,15 +642,6 @@ footer .footer_copy {
   align-items: center;
 }
 
-#footer-3 {
-  background-color: #1e2022;
-  opacity: 2;
-}
-
-#footer-h6 {
-  color: white;
-}
-
 @media all and (min-width: 768px) {
   .hamburger {
     display: none;
@@ -811,6 +805,15 @@ footer .footer_copy {
 
   #about-footer .final-parag p {
     color: #fff;
+  }
+
+  #footer-3 {
+    background-color: #1e2022;
+    opacity: 2;
+  }
+
+  #footer-h6 {
+    color: white;
   }
 }
 
