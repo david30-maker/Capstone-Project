@@ -11,7 +11,7 @@ const speakers = [
 
   {
     images: {
-      imagesUrl: 'img/osi.j',
+      imagesUrl: 'img/osi.jpeg',
       imagesAlt: 'Prof. Oluyemi Osinbajo',
     },
     name: 'Prof. Oluyemi Osinbajo',
@@ -43,7 +43,7 @@ const speakers = [
 
   {
     images: {
-      imagesUrl: 'images/speaker-2.png',
+      imagesUrl: 'img/speaker-2.png',
       imagesAlt: 'Scott Michael Disick',
     },
     name: 'Scott Michael Disick',
