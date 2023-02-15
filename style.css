@@ -85,11 +85,6 @@ hr {
   cursor: pointer;
 }
 
-img .close {
-  max-width: 40px;
-  max-height: 40px;
-}
-
 .hamburger i {
   cursor: pointer;
   transition: 200ms;
