@@ -201,8 +201,8 @@ footer .footer_copy img {
 #header_section {
   background-image:
     linear-gradient(
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 190, 188, 0.664)
+      rgba(255, 255, 255, 0.849),
+      rgba(252, 249, 249, 0.801)
     ),
     url(img/headline-2.jpeg);
   background-size: cover;
@@ -228,12 +228,15 @@ footer .footer_copy img {
 
 .about_header_section .title,
 #header_section .title {
-  color: #e8240e;
-  text-transform: uppercase;
-  text-shadow: 3px 2px 2px rgba(225, 88, 88, 0.267);
-  font-size: 40px;
+  background: linear-gradient(to right, #ef5350, #f48fb1,
+   #7e57c2, #2196f3, #26c6da, #43a047,
+    #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
   font-weight: bolder;
   line-height: 1.2;
+  letter-spacing: 0.1rem;
   padding: 10px 0;
 }
 
@@ -412,6 +415,7 @@ footer .footer_copy img {
 .guest aside h4 {
   font-size: 22px;
   font-weight: bold;
+  line-height: 1.1;
   margin-bottom: 0;
 }
 
@@ -449,7 +453,7 @@ footer .footer_copy img {
 .about_header_section {
   background-image:
     linear-gradient(
-      rgba(236, 81, 81, 0.164),
+      rgba(255, 255, 255, 0.164),
       rgba(218, 218, 218, 0.8)
     ),
     url(./img/headline-2.jpeg);
